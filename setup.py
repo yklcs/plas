@@ -7,6 +7,7 @@ setup(
     install_requires=[
         'numpy',
         'torch',
+        'torchvision',
         'kornia',
         'tqdm',
 
@@ -25,7 +26,7 @@ setup(
         'opencv-python',
 
         # eval/flas
-        'lap',
+        'lapx',
         'matplotlib',
         'scipy'
     ],
